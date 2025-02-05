@@ -1,8 +1,9 @@
-﻿using CowDefence.SpawnSystem;
+﻿using Game.SpawnSystem;
 using UnityEditor;
 using UnityEngine;
+using VContainer;
 
-namespace Assets._Dev
+namespace Game
 {
     public class EntryPoint : MonoBehaviour
     {
@@ -12,6 +13,7 @@ namespace Assets._Dev
 
         private void Awake()
         {
+            return;
             _enemySpawner = new EnemySpawner();
 
             _enemySpawner.Spawn(

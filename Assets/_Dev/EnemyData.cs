@@ -1,5 +1,8 @@
-﻿public struct EnemyData
+﻿namespace Game
 {
-    public float Speed;
-    public float Level;
+    public struct EnemyData
+    {
+        public float Speed;
+        public float Level;
+    }
 }

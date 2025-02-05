@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CowDefence.SpawnSystem
+namespace Game.SpawnSystem
 {
     public struct SpawnPoint
     {

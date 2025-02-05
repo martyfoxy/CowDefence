@@ -1,4 +1,4 @@
-﻿namespace CowDefence.SpawnSystem
+﻿namespace Game.SpawnSystem
 {
     public struct TowerData
     {

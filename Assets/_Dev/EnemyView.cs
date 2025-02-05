@@ -1,15 +1,18 @@
 using UnityEngine;
 
-public class EnemyView : ContextView<EnemyData>
+namespace Game
 {
-    [SerializeField]
-    private MeshRenderer m_Renderer;
-
-    [SerializeField]
-    private Animator m_Animator;
-
-    public override void UpdateView()
+    public class EnemyView : ContextView<EnemyData>
     {
-        
+        [SerializeField]
+        private MeshRenderer m_Renderer;
+
+        [SerializeField]
+        private Animator m_Animator;
+
+        public override void UpdateView()
+        {
+
+        }
     }
 }

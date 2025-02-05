@@ -1,8 +1,9 @@
 using System;
+using Game;
 using UnityEngine;
 using UnityEngine.Pool;
 
-namespace CowDefence.SpawnSystem
+namespace Game.SpawnSystem
 {
     public class EnemySpawner : ISpawner<EnemyView, EnemyData>
     {

@@ -1,16 +1,19 @@
 ﻿using UnityEngine;
 
-public abstract class ContextView<T> : MonoBehaviour
+namespace Game
 {
-    public T Context { get; private set; }
-
-    public void Setup(T context, bool updateView = true)
+    public abstract class ContextView<T> : MonoBehaviour
     {
-        Context = context;
+        public T Context { get; private set; }
 
-        if (updateView)
-            UpdateView();
+        public void Setup(T context, bool updateView = true)
+        {
+            Context = context;
+
+            if (updateView)
+                UpdateView();
+        }
+
+        public abstract void UpdateView();
     }
-
-    public abstract void UpdateView();
 }
